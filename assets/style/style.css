@@ -247,6 +247,7 @@ article.first section.magla div.p {
   flex-direction: column;
   box-sizing: border-box;
   padding-bottom: 50px;
+  z-index: 5;
 }
 article.first section.magla div.p p {
   font-weight: 900;

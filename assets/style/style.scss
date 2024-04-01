@@ -249,6 +249,7 @@ article.first {
       flex-direction: column;
       box-sizing: border-box;
       padding-bottom: 50px;
+      z-index: 5;
 
       p {
         font-weight: 900;
