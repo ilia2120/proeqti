@@ -335,8 +335,18 @@
       }
       section.gright {
         width: clamp(250px, 100vw, 444px);
+        h1,
+        h2,
+        p {
+          padding: 0 30px;
+          box-sizing: border-box;
+        }
         form {
           gap: 35px;
+
+          label.sc {
+            padding: 0 30px;
+          }
 
           button {
             width: 250px;

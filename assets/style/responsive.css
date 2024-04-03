@@ -302,8 +302,17 @@
   body.gift main section.gright {
     width: clamp(250px, 100vw, 444px);
   }
+  body.gift main section.gright h1,
+  body.gift main section.gright h2,
+  body.gift main section.gright p {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
   body.gift main section.gright form {
     gap: 35px;
+  }
+  body.gift main section.gright form label.sc {
+    padding: 0 30px;
   }
   body.gift main section.gright form button {
     width: 250px;
